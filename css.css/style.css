@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body{
+  background-color: hsl(215, 32%, 27%);
+  font-size: 11px;
+  font-family: 'Outfit', sans-serif;
+}
+
+h1{
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+h4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.estrutura{
+  display: flex;
+  border: 2px solid hsl(216, 50%, 16%);
+  width: 14rem;
+  max-width: 14rem;
+ 
+  /* position: absolute;
+  left: 40%;
+  top: 20%; */
+
+  /* fix */
+  padding: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* fix */
+  background-color: hsl(216, 50%, 16%);
+  flex-direction: column;
+  border-radius: 5%
+}
+.margin > h4{
+  color: hsl(215, 51%, 70%);
+}
+img{
+   border-radius: 5%;
+}
+
+p{
+  color: white;
+}
+#p2{
+  color: black;
+}
+.text{
+  margin-left: 1rem;
+  margin-top: 1rem;
+  display: inline-block;
+  /* display: flex;
+  justify-content: space-around; */
+}
+.pagina {
+  width: 3%;
+  margin: 1rem;
+  display: flex;
+  margin-top: -10%;
+  margin-left: 7%;
+}
+#lado{
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -23px;
+  margin-left: 55%;
+  color: grey;
+  
+}
+.pagina2{
+  width: 5%;
+  margin-left: 63%;
+  margin-top: -12%;
+}
+.margin{
+ 
+  color: white;
+}
+#criador{
+  margin-left: 23%;
+  margin-top: 10%;
+}
+hr{
+  width: 85%;
+}
+/* .foto{
+  width: 9%;
+  margin-top: -13%;
+  margin-left: 7%;
+  border-radius: 50%; */
+/* } */
+/* #bryan{
+  color: white;
+  margin-left: 2%; */
+/* } */
+
+#criador{
+  margin-left: 18%;
+  
+}
+.flex{
+  display: flex;
+}
+.flex2{
+  
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+.cripto{
+  display: flex;
+  position: relative;
+}
+
+.cripto::after{
+  content: '';
+  position: absolute;
+  width: 14rem;
+  height: .1rem;
+  background-color: hsl(215, 32%, 27%);
+  margin-top: 1.5rem;
+}
+.flex > p{
+  color:hsl(178, 100%, 50%);
+  margin-left: .2rem;
+
+
+}
+.flex2 > p{
+  color: hsl(215, 51%, 70%);
+}
+#foto-bryan{
+  width: 1.5rem;
+  border-radius: 50%;  
+}
+#linha{
+  color: hsl(215, 51%, 70%);
+  margin-left: 2rem;
+  margin-top: -1.1rem;
+}
+
+
