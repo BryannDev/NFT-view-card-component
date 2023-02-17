@@ -26,18 +26,11 @@ h4{
   border: 2px solid hsl(216, 50%, 16%);
   width: 14rem;
   max-width: 14rem;
- 
-  /* position: absolute;
-  left: 40%;
-  top: 20%; */
-
-  /* fix */
   padding: 1rem;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* fix */
   background-color: hsl(216, 50%, 16%);
   flex-direction: column;
   border-radius: 5%
@@ -59,8 +52,7 @@ p{
   margin-left: 1rem;
   margin-top: 1rem;
   display: inline-block;
-  /* display: flex;
-  justify-content: space-around; */
+
 }
 .pagina {
   width: 3%;
@@ -95,16 +87,6 @@ p{
 hr{
   width: 85%;
 }
-/* .foto{
-  width: 9%;
-  margin-top: -13%;
-  margin-left: 7%;
-  border-radius: 50%; */
-/* } */
-/* #bryan{
-  color: white;
-  margin-left: 2%; */
-/* } */
 
 #criador{
   margin-left: 18%;
